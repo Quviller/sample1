@@ -6,9 +6,9 @@
 </head>
 <body>
     <h1>Table</h1>
-    <table border="1" border-collapse: collapse;>
+    <table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
         <tr>
-            <th rowspan="2">Summary</th>
+            <th rowspan="2" style="vertical-align:top;">Summary</th>
             <th>Quarter 1</th>
             <th>Quarter 2</th>
         </tr>
@@ -32,5 +32,24 @@
         </tr>
     </table>
     <h1>Questionnaire</h1>
+   <form action="https://formspree.io/didukhroman@gmail.com"
+      method="POST">
+       <label for="vote">Your vote:</label> <br>
+       <input type="radio" name="Trump" id="vote"/>Donald <br>
+        <input type="radio" name="Trump"/>Hillary <br><br>
+    
+       <label for="male">Sex:</label> <br>
+       <input type="radio" name="male" id="male"/>male <br>
+       <input type="radio" name="female"/> female <br> 
+       <input type="radio" name="female"/> I don't want to tell <br> <br>
+       <label for="Est">Where are you from:</label> <br>
+       <input type="radio" name="Est" id="male"/>Est <br>
+       <input type="radio" name="West"/> West <br> 
+       <input type="radio" name="North"/> North <br> 
+        <input type="radio" name="South"/> South <br> <br>
+       
+       <input type="checkbox" name="age" id="age"/> I'm adult <br> <br>
+       <input type="submit" value="vote"/>
+   </form>
 </body>
 </html>
