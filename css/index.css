@@ -3,7 +3,7 @@
     padding:0;
 }
 body {
-    background: url("../images/ип.jpg") no-repeat;
+    background: url("../images/bg.jpg") no-repeat;
     background-size: 100vw;
     background-attachment: fixed;
     max-width:70vw;
