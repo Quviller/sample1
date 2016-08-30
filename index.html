@@ -3,93 +3,94 @@
     <head>
         <meta charset="utf-8">
         <title>DRV website</title>
+        <link rel="stylesheet" href="css/normalized.css" type="text/css" />
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
     </head>
     <body>
         <header> 
-            <h1 id="main">Welcome to my personal site</h1>
-            <img src="background.jpg" alt="back" width="500">
+            <h1 id="main">My first website</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="#photos">My Photos</a></li>
+                </ul>
+            </nav>
         </header>
         
-        <nav>
-            <ul>
-                <li><a href="#main">Main</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#photos">My Photos</a></li>
-                <li><a href="#hobbies">My Hobbies</a></li>
-            </ul>
-        </nav>
-        
-        <aside>
-            <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100009243806222" target="blank">FB</a></li>
-                <li><a href="https://vk.com/id19161997" target="blank">VK</a></li>
-                <li><a href="https://ua.linkedin.com/in/romandidukh" target="blank">LI</a></li>
-            </ul>
-        </aside>
-        
-        <article id="about">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        <article class="about" id="about">
+            <img src="images/main.jpg"></img>
+           <div class="clearfix"> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+           <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+           <br> <br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
             </p>
+            </div>
         </article>
-        
-        <section id="photos">
-            <img src="flat/12.jpg" alt="picture" width="180">
-            <img src="flat/13.jpg" alt="picture" width="180">
-            <img src="flat/14.jpg" alt="picture" width="180">
-            <img src="flat/15.jpg" alt="picture" width="180">
-            <img src="flat/16.jpg" alt="picture" width="180">
-            <img src="flat/21.jpg" alt="picture" width="180">
-            <img src="flat/22.jpg" alt="picture" width="180">
-            <img src="flat/23.jpg" alt="picture" width="180">
-            <img src="flat/24.jpg" alt="picture" width="180">
-            <img src="flat/25.jpg" alt="picture" width="180">
-            <img src="flat/26.jpg" alt="picture" width="180">
-            <img src="flat/27.jpg" alt="picture" width="180">
-        </section>
-        
         <section id="hobbies">
             <div>
                 <h2>Liverpool FC</h2>
-                <p>You'll Never Walk Alone</p>
-                <a href="http://www.liverpoolfc.com/welcome-to-liverpool-fc" target="blank">LFC official site</a>
+                <a href="http://www.liverpoolfc.com/welcome-to-liverpool-fc" target="blank">You'll Never Walk Alone</a>
+                <img src="images/hobby/liverpool.jpg" alt="Liverpool">
+                <br>
             </div>
             <div>
                 <h2>Chess</h2>
-                <p>Let's play a game</p>
-                <a href="https://www.chess.com/members/view/Quviller" target="blank">Chess.com</a>
+                <a href="https://www.chess.com/members/view/Quviller" target="blank">Let's play a game</a>
+                <img src="images/hobby/chess.jpg" alt="Chess">
+                 <br>
             </div>
             <div>
                 <h2>Game of Thrones</h2>
-                <p>The best TV-show</p>
-                <a href="http://www.hbo.com/game-of-thrones" target="blank">GoT HBO</a>
+                <a href="http://www.hbo.com/game-of-thrones" target="blank">The best TV-show</a>
+                <img src="images/hobby/GoT.jpg" alt="Gama of Thrones">
+                 <br>
             </div>
         </section>
         
-        <br>
-        <hr>
-        <section>
+        <section id="photos">
+            
+           <figure>
+              <img src="images/party/2friends.jpg" alt="2 Friends">
+            </figure>
+            
+            <figure>
+              <img src="images/party/3friends.jpg" alt="3 Friends">
+            </figure>
+            
+            <figure>
+              <img src="images/party/4friends.jpg" alt="4 Friends">
+            </figure>
+           
+            
+             <figure>
+              <img src="images/party/me-drinking.jpg" alt="Me drinking">
+            </figure>
+            
+             <figure>
+              <img src="images/party/overall-view.jpg" alt="overall view">
+            </figure>
+            
+             <figure>
+              <img src="images/party/vozniaks.jpg" alt="Vozniaks">
+            </figure>
+             
+        </section>
+     
+        <footer> 
+         
             <form>
                 <label for="email">Type your email to download my CV</label>
-                <br><br>
+    
                 <input type="email" name="email" id="email" placeholder="example@email.com"/>
-                <br><br>
+               
                 <input type="submit" value="Download"/>
             </form>
-        </section>
- 
-        
-        
-        
-        
-        
-     
-        
-        
-        
-        <h1><a href="HW1.html">homework</a></h1>
-        <h1><a href="HW2.html">table and form</a></h1>
+            <nav class="social-nav">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009243806222" target="blank">FB</a></li>
+                    <li><a href="https://ua.linkedin.com/in/romandidukh" target="blank">LI</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
-    
-    
    
 </html>

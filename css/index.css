@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: url("../images/ип.jpg") no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    max-width:70vw;
+    margin: 5vw auto;
+}
+header {
+    position: fixed;
+    top:0;
+    max-width: 70vw;
+    width:100vw;
+}
+h1 {
+    font-size: 2vw;
+    display: inline-block; 
+    color: white;
+    margin: 1.5vw;
+}
+.main-nav {
+    float: right;
+}
+.main-nav ul {
+    margin: 1.2vw;
+}
+.main-nav ul li {
+    display: inline-block;
+    padding: 0.5vw;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-size:1.5vw;
+    color: white;
+}
+.main-nav ul li a:hover {
+   color:blue;
+}
+.about {
+    clear: both;
+    margin: 5vw 0 0 0;
+} 
+article img {
+    width: 10vw;
+    display: block;
+    float: right;
+    border-radius: 50%;
+    margin: 0 2vw;
+}
+
+.about p {
+    width: 50vw;
+    display: block;
+    margin-left: 3vw;
+    font-size: 1.25vw;
+    color: white;
+}
+
+#hobbies {
+    clear: both;
+    margin:4vw 0 12vw 0;
+}
+#hobbies div {
+    display:inline-block;
+    width: 23vw;
+}
+#hobbies div img {
+    display:block;
+    width: 21vw;
+    height: 13vw;
+    margin: 0 auto;
+    border-radius:10%;
+}
+h2  {
+    text-align: center;
+    font-size:1.4vw;
+    line-height:1.6vw;
+}
+
+div a {
+    line-height:3vw;
+    font-size:1.25vw;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;   
+}
+a:hover {
+  color:blue;  
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    width: 1200px;
+}
+form {
+    float:left;
+}
+
+form {
+    display:inline;
+}
+label, input {
+    display:inline-block;
+    margin: 1vw;
+}
+label {
+    font-size:1.2vw;
+    color: white;
+}
+
+.social-nav {
+    display:block;
+    float: right;
+}
+.social-nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.social-nav ul li a {
+    text-decoration: none;
+    font-size:1.5em;
+    color: white;
+}
+
+.social-nav ul li a:hover {
+    color: blue;
+}
+
+#photos {
+    clear: both;
+    margin-bottom: 11vw;
+}
+
+figure {
+    
+    display:inline-block;
+    margin: 0;
+}
+figure img {
+    width: 23vw;
+    height:15vw;
+    border: 1px solid blue;
+    border-radius:10%;
+}
+
