@@ -3,8 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>DRV website</title>
-        <link rel="stylesheet" href="css/normalized.css" type="text/css" />
-        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <link rel="stylesheet" href="css/normalized.css" >
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/lg.css"  media="only screen and (min-width: 891px)">
+        <link rel="stylesheet" href="css/481-890.css" media="only screen and (min-width: 481px) and (max-width: 890px)">
+        <link rel="stylesheet" href="css/320-480.css" media="only screen and (max-width: 480px)">
     </head>
     <body>
         <header> 
@@ -12,6 +15,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="/">About Me</a></li>
+                    <li id="hobbies-link"><a href="#hobbies">My Hobbies</a></li>
                     <li><a href="#photos">My Photos</a></li>
                 </ul>
             </nav>
@@ -66,11 +70,11 @@
               <img src="images/party/me-drinking.jpg" alt="Me drinking">
             </figure>
             
-             <figure>
+             <figure class="hidden890">
               <img src="images/party/overall-view.jpg" alt="overall view">
             </figure>
             
-             <figure>
+             <figure class="hidden890">
               <img src="images/party/vozniaks.jpg" alt="Vozniaks">
             </figure>
              
@@ -81,9 +85,9 @@
             <form>
                 <label for="email">Type your email to download my CV</label>
     
-                <input type="email" name="email" id="email" placeholder="example@email.com"/>
+                <input type="email" name="email" id="email" placeholder="your@email.com"/>
                
-                <input type="submit" value="Download"/>
+                <input type="submit" value="Download CV"/>
             </form>
             <nav class="social-nav">
                 <ul>

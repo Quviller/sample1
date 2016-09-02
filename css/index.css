@@ -116,6 +116,7 @@ form {
     float:left;
     margin-left:15vw;
     padding: 0.5vw;
+    position:relative;
 }
 
 label, input {
@@ -128,17 +129,21 @@ label {
 }
 
 .social-nav {
-    display:block;
     float: right;
-    margin-right:15vw;
+    margin:0.5vw 15vw 0 0 ;
+    
 }
 .social-nav ul li {
     display: inline-block;
-    padding:  0.2vw 1vw 0 1vw;
+}
+.social-nav ul li a {
+    display: inline-block;
 }
 .social-nav ul li a img {
-    width: 2vw;
-    height: 2vw;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    
     border-radius:20%;
     transition: border-radius 2s;
 }
